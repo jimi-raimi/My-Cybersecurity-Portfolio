@@ -1,0 +1,70 @@
+OverTheWire (Bandit)
+
+LEVEL 1 : ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+LEVEL 2 : 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+LVL 3 : MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+LVL 4 : 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ 
+1) find . -type f -print0 | xargs -0 file 
+- find untuk cari file/folder
+-. untuk start cari dari current directory
+- -type f untuk focus cari file biasa sahaja
+- | untuk ambil command dari kiri ke kanan
+- xargs untuk listkan input jadi ./
+- file untuk detect jenis file berdasarkan content
+
+LVL 5 : 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+1) find . -type -size 1033c ! -executable
+- -size 1033c = size 1033 bytes
+- ! untuk not
+- -executable untuk execute
+
+LVL 6 : HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+1) find / -type f -user bandit7 - group bandit6 -size 33c
+- / untuk cari start dari root
+- c = bytes
+
+LVL 7 : morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+1) cat data.txt | grep millionth
+- grep untuk dia cari spesifik dalam file
+- millionth tu hint
+
+LVL 8 : dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+1) cat data.txt | sort | uniq -c
+- sort susun ikut turutan
+- uniq -c buang duplicate dan kira jumlah kemunculan
+
+LVL 9 : 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+1) strings data.txt | grep "=="
+- strings untuk tukarkan datatype ke string/boleh dibaca
+- grep untuk spesifik cari dan tarik target
+
+LVL 10 : FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+1) cat data.txt | base64 -d
+- base64 untuk tukarkan ke base64
+- -d untuk decode dari base64
+
+LVL 11 : dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+1) strings data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+- tr = translate
+- 'A-Za-z' untuk bahagian pertama 
+- 'N-ZA-Mn-za-m' untuk bahagian kedua
+
+LVL 12 : 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+1) mktemp -d
+- buat folder sementara dan masuk
+2) cp ~/data.text .
+- cp = copy
+- ~/data.text = file yang nak di copy
+- . = current directory
+3) xxd -r data.txt > data
+- xxd = hexdump tool
+- -r = reverse (convert balik)
+4) 
+LVL13 : FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+
+
+
+
+
+
+
