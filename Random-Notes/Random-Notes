@@ -1,0 +1,15 @@
+nmap -p- <Metasploitable2-IP>
+
+nmap --script=http-vuln* -p portnumber <Metasploitable2-IP>
+
+nmap --script=http-sql-injection -p portnumber <Metasploitable2-IP>
+
+nmap --script=http-enum -p portnumber <Metasploitable2-IP>
+
+nmap --script=http-shellshock -p port number <Metasploitable2-IP>
+
+nmap --script=ssh-vuln* -p SSHportnumber <Metasploitable2-IP>
+
+nmap --script=smb-vuln* -p SMBportnumber <Metasploitable2-IP>
+
+nmap -sV --script=http-vuln* -p portnumber <Metasploitable2-IP> -oN FXXXmetasploitable_scan.txt
