@@ -185,6 +185,3 @@ The process starts similarly to the previous Morse Code challenge, but the Morse
 * Decode one layer at a time, then re-analyze the resulting output.
 * Stay patient and systematic — do not skip any steps.
 
----
-
-> 📌 *This writeup was written based on hands-on experience during the CTFCW competition. All flags were obtained within an authorized environment.*
