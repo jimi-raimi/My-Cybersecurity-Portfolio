@@ -1,37 +1,96 @@
-# Hi, I'm Raimihakim 👋
+# Mohamad Raimihakim
 
-🔐 Information Security Student
+Aspiring Junior Security Consultant with hands-on experience in vulnerability assessment, penetration testing, network analysis, and web application security through laboratory exercises, security projects, and Capture The Flag (CTF) challenges.
 
----
+## Technical Skills
 
-### 🧑‍💻 About Me
-- 🎓 Diploma in Digital Technology (Information Security)
-- 🏠 Based in Johor Bahru, Malaysia
-- 🔭 Currently: Working through HackTheBox machines & TryHackMe paths
-- 🌱 Learning: Advanced web exploitation, Active Directory attacks
-- 🏆 Participant in CTF competitions
+### Security Testing
+- Vulnerability Assessment
+- Penetration Testing
+- Network Enumeration
+- Web Application Security Testing
 
----
+### Tools
+- Nmap
+- Burp Suite
+- Wireshark
+- SQLMap
+- Nessus Essentials
+- Metasploit
+- Kali Linux
 
-### 🛠️ Tools & Skills
-
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat&logo=kali-linux&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat&logo=portswigger&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-
----
-
-### 📂 My Repositories
-| Repo | Description |
-|------|-------------|
-| [htb-writeups](https://github.com/raimihakim/htb-writeups) | HackTheBox machine writeups (retired only) |
-| [ctf-writeups](https://github.com/raimihakim/ctf-writeups) | CTF competition solutions |
-| [security-scripts](https://github.com/raimihakim/security-scripts) | Custom recon & automation scripts |
+### Areas of Interest
+- Web Application Security
+- Network Security
+- Vulnerability Assessment
+- Penetration Testing
+- Threat Analysis
 
 ---
 
-### 📫 Connect With Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/raimihakim)
-[![HackTheBox](https://img.shields.io/badge/HackTheBox-9FEF00?style=flat&logo=hackthebox&logoColor=black)](https://app.hackthebox.com/profile/YOURID)
+# Vulnerability Assessments
+
+| Assessment | Description |
+|------------|-------------|
+| Internal Network Assessment | Assessment of exposed services, SMB enumeration, RPC exposure, and network attack surface analysis. |
+| DVWA Web Assessment | Identification and analysis of SQL Injection vulnerabilities in a controlled environment. |
+| ExploitBox Web Assessment | Web application security assessment involving enumeration, vulnerability identification, and risk analysis. |
+
+---
+
+# Labs
+
+| Lab | Skills Demonstrated |
+|------|--------------------|
+| ExploitBox Penetration Testing Lab | Nmap, Nessus, Burp Suite, SQLMap, Web Application Testing |
+| SQL Injection Testing Lab | Manual SQL Injection, SQLMap, Database Enumeration |
+| Wireshark SQL Injection Analysis | Packet Analysis, HTTP Stream Investigation, Incident Analysis |
+| Nginx Log Monitoring Lab | Linux Administration, Log Analysis, Web Server Configuration |
+
+---
+
+# Capture The Flag (CTF)
+
+Hands-on practice through Capture The Flag challenges focusing on:
+
+- Linux Enumeration
+- Web Exploitation
+- Privilege Escalation
+- Basic Reverse Engineering
+- Network Analysis
+
+---
+
+# Security Notes
+
+Personal learning notes covering:
+
+- Nmap
+- OverTheWire Bandit
+- Linux Commands
+- Enumeration Techniques
+- Web Security Concepts
+
+---
+
+# Certifications
+
+Currently pursuing industry-recognized cybersecurity certifications to strengthen offensive and defensive security knowledge.
+
+---
+
+# Objectives
+
+To continuously develop practical cybersecurity skills and gain experience in:
+
+- Vulnerability Assessment
+- Penetration Testing
+- Security Consulting
+- Security Reporting
+- Risk Analysis
+
+---
+
+# Disclaimer
+
+All activities were conducted within authorized laboratory environments, intentionally vulnerable systems, or educational platforms for learning and research purposes.
