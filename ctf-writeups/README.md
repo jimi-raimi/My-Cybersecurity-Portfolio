@@ -1,47 +1,32 @@
 # All CTF Writeups
 
-Koleksi writeup CTF (Capture The Flag) yang pernah aku sertai. Setiap writeup merangkumi pendekatan penyelesaian, tools yang digunakan, dan flag yang ditemui.
+A collection of CTF (Capture The Flag) writeups that I've participated in. Each writeup covers the solution approach, tools used, and flags found.
 
 ---
 
-## 📋 Senarai CTF
+## 📋 List CTF
 
-| CTF | Tahun | Kategori | Soalan Selesai |
+| CTF | Years | Category | Finished Question |
 |-----|-------|----------|----------------|
-| [HackerVerse CTF](#) | 2024 | Cryptography, Warm Up | 2 |
-| [SiberSiaga CTF](#) | 2024 | Web Exploitation | 1 |
-| [CTFCW](#) | 2024 | Web, Cryptography, MISC | 6 |
+| [HackerVerse CTF](#) | 2025 | Cryptography, Warm Up | 2 |
+| [SiberSiaga CTF](#) | 2025 | Web Exploitation | 1 |
+| [CTFCW](#) | 2025 | Web, Cryptography, MISC | 6 |
 
 ---
 
 ## 🎯 HackTheBox Profile
 
-> 🔗 [Lihat Profil HTB aku](https://app.hackthebox.com/users/3547035)
+> 🔗 [My HTB Profile](https://app.hackthebox.com/users/3547035)
 
-Platform latihan hands-on untuk mengasah kemahiran offensive security melalui machines dan challenges.
-
----
-
-## 🗂️ Struktur Folder
-
-```
-05-ctf-writeups/
-├── hackerverse-2024/     # HackerVerse CTF
-├── sibersiaga-2024/      # SiberSiaga CTF
-├── ctfcw-2024/           # CTFCW
-└── htb-machines/         # HackTheBox Machines
-```
+Hands-on training platform to hone offensive security skills through machines and challenges.
 
 ---
 
-## 🛠️ Tools Yang Sering Digunakan
+## 🛠️ Tools
 
-- **CyberChef / Cryptii** — decode pelbagai jenis cipher
-- **dCode.fr** — cipher identifier dan decoder
+- **CyberChef / Cryptii** — decode various types of ciphers
+- **dCode.fr** — cipher identifier and decoder
 - **Burp Suite** — web exploitation & interception
 - **morsefm** — morse code audio decoder
-- **CyberChef** — encoding/decoding pelbagai format
+- **CyberChef** — encoding/decoding various formats
 
----
-
-> ⚠️ Writeup ini ditulis untuk tujuan pembelajaran. Semua flag diperoleh dalam persekitaran CTF yang dibenarkan.
