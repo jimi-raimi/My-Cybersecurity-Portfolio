@@ -8,7 +8,7 @@ A collection of CTF (Capture The Flag) writeups that I've participated in. Each 
 
 | CTF | Years | Category | Finished Question |
 |-----|-------|----------|----------------|
-| [HackerVerse CTF](#) | 2025 | Cryptography, Warm Up | 2 |
+| [HackerVerse CTF](#) | 2025 | Cryptography, Warm Up | 1 |
 | [SiberSiaga CTF](#) | 2025 | Web Exploitation | 1 |
 | [CTFCW](#) | 2025 | Web, Cryptography, MISC | 6 |
 
