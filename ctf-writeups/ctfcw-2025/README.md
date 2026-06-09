@@ -1,7 +1,7 @@
 # 🏴 CTFCW — Writeup
 
 **Category:** Web Exploitation, Cryptography  
-**Solved Challenges:** 6  
+**Solved Challenges:** 9
 **Platform:** CTFCW  
 
 ### Challenge List
@@ -14,6 +14,9 @@
 | 4 | Cryptography | Cipher No Hint | ✅ Solved |
 | 5 | Cryptography | Morse Code | ✅ Solved |
 | 6 | Cryptography | More, More and More Morse Code and Caesar Cipher | ✅ Solved |
+| 7 | Miscellaneous | Flagception | ✅ Solved |
+| 8 | OSINT | No Deal | ✅ Solved |
+| 9 | Miscellaneous | Sanity Check | ✅ Solved |
 
 ---
 
