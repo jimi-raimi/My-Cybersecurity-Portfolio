@@ -1,5 +1,5 @@
-🏅 Certifications
-📜 CompTIA CyberSecurity Analyst + (CySA+)
+# 🏅 Certifications
+## 📜 CompTIA CyberSecurity Analyst + (CySA+)
 
     Issued by: CompTIA Official Global
     Date Earned: August 2025
