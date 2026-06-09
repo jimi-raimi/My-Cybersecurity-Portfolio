@@ -28,5 +28,4 @@ Hands-on training platform to hone offensive security skills through machines an
 - **dCode.fr** — cipher identifier and decoder
 - **Burp Suite** — web exploitation & interception
 - **morsefm** — morse code audio decoder
-- **CyberChef** — encoding/decoding various formats
 
