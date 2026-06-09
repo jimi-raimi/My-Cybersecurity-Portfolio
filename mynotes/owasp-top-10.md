@@ -63,4 +63,4 @@ The OWASP Top 10 is a standard awareness document for developers and web applica
 
 ---
 
-📁 [Back to Portfolio Home](../README.md) | 🔗 [OWASP Official Site](https://owasp.org)
+🔗 [OWASP Official Site](https://owasp.org)
