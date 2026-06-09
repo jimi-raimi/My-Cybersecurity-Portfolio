@@ -25,22 +25,5 @@ The provided message appears to be encoded text. Upon closer inspection, it uses
 ### Flag / Output
 `seven three four zero five eight two one six four`
 
----
 
-## 🌐 Warm Up — Challenge 2
-
-### Description
-The challenge requires us to find the correct password for the `binary1` file.
-
-### Approach
-*(Writeup in progress — currently under development)*
-
-### Tools
-*(TBD)*
-
-### Walkthrough
-*(TBD)*
-
-### Flag
-*(TBD)*
 
