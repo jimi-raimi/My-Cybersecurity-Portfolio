@@ -26,7 +26,5 @@ This technique is related to Authentication Bypass — where the system fails to
 3. Enter `admin` into the input/reason field on the form.
 4. Click submit → the access is granted and the flag is revealed.
 
-### Web Interface Representation
-```text
-[ Input Field: Enter your reason ]
-         [ Submit ]
+### Flag
+SIBER25{w31c0m3_70_7h3_c001357_c17y}
