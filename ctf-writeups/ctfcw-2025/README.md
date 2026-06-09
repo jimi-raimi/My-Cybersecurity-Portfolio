@@ -243,7 +243,7 @@ This is an Open-Source Intelligence (OSINT) challenge. By reviewing news archive
 
 ---
 
-### General Skills — Sanity Check
+### Miscellaneous — Sanity Check
 
 ### Description
 A standard onboarding challenge checking if players can successfully navigate the event's communication network: "Can you find the flag in discord?".
