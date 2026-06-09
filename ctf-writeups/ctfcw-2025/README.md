@@ -185,3 +185,84 @@ The process starts similarly to the previous Morse Code challenge, but the Morse
 * Decode one layer at a time, then re-analyze the resulting output.
 * Stay patient and systematic — do not skip any steps.
 
+---
+
+### Miscellaneous — Flagception
+
+### Description
+The challenge presents a multi-layered nested archive file named `flag30.zip` with the hint: "There's only one way forward; embrace the zip life :)".
+
+### Approach
+The title "Flagception" implies a recursive ZIP file hierarchy (a zip inside a zip, nested multiple times from layer 30 down to 0). Instead of wasting time manually extracting all 30 archives or writing an extraction script, we can run the Linux `strings` utility directly against the outermost archive. If the text file contents are archived without heavy stream encryption, the raw string indexing may expose the flag flag text instantly.
+
+### Tools
+* Linux Terminal / Kali Linux
+* `strings` command-line utility
+
+### Walkthrough
+1. Download the target archive `flag30.zip`.
+2. Open a Linux terminal shell environment.
+3. Run the strings command on the file: `strings flag30.zip`
+4. Inspect the resulting text stream showing internal compressed file listings (`flag29.zip`, `flag28.zip`, ..., `final_flag.txt`).
+5. Scan near the `final_flag.txt` segment to extract the cleartext flag.
+
+### Flag
+`CW25{z1pp1ng_m3_s0ftly}`
+
+### Takeaways
+* Nested unencrypted storage containers can often be fast-audited by dumping cleartext binary streams.
+* Command-line utilities like `strings` are highly efficient shortcuts during time-bound competitions.
+
+---
+
+### OSINT — No Deal
+
+### Description
+In March 2025, a cyberattack targeted Malaysia's main airport operator. A high-ranking government official delivered a public statement affirming that no ransom would be paid to the hackers. Find the full name of this official.
+
+### Approach
+This is an Open-Source Intelligence (OSINT) challenge. By reviewing news archives, public media reports, and official government statements from Malaysia dated around March 2025 regarding airport cyber incidents, we can identify the political figure who made the statement and format their name to fit the lowercase flag structure.
+
+### Tools
+* Search Engine (Google News / Open Web)
+
+### Walkthrough
+1. Execute web searches targeting Malaysian airport cyber incidents or ransomware vectors in March 2025.
+2. Identify the top state official or minister who issued the public "no ransom deal" declaration.
+3. Perform a trial-and-error submission using the official's name formatted in lowercase with underscores (`xxxx_xxxxx_xxxxxxx`) to match the required flag layout.
+
+### Flag
+`ctfcw{seri_anwar_ibrahim}`
+
+### Takeaways
+* OSINT mappings require filtering information based on rigid timelines (March 2025) and location filters (Malaysia).
+* Always test variation formats of public names (titles, shorthand, full names) when adapting to flag templates.
+
+---
+
+### General Skills — Sanity Check
+
+### Description
+A standard onboarding challenge checking if players can successfully navigate the event's communication network: "Can you find the flag in discord?".
+
+### Approach
+Join the official event Discord server, navigate through the public administrative and support infrastructure channels, locate the ticket dashboard section, and decode the embedded Base64 string found there.
+
+### Tools
+* Discord Client
+* CyberChef (Base64 Decoder)
+
+### Walkthrough
+1. Connect to the official competition Discord server via the provided invitation link.
+2. Authenticate your account profile and navigate into the active support ticket channel sections.
+3. Find the base64 encoded flag string hidden within the ticket panel text block: `UzRuMXI1WDBOb00yTnI=`.
+4. Open CyberChef and apply the `From Base64` recipe recipe block.
+5. Decode the raw data to reveal `S4n1ty_Ch3ck` and wrap it with the correct competition flag headers.
+
+### Flag
+`CW25{S4n1ty_Ch3ck}`
+
+### Takeaways
+* Sanity checks validate fundamental skills like platform navigation and common encoding format identification (Base64).
+
+---
