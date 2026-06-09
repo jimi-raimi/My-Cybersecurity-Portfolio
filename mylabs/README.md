@@ -7,6 +7,9 @@ Understand SQL Injection attacks in a controlled environment.
 - DVWA
 - Burp Suite
 - Firefox
+- Metasploitable2
+- Kali Linux
+- sqlmap
 
 ## Skills Demonstrated
 - Web Enumeration
