@@ -14,11 +14,11 @@ Understand SQL Injection attacks in a controlled environment.
 - Web Enumeration
 - SQL Injection Testing
 
-## Impact :
+## Impact 
 - Data stealed from sql injection
 - Unauthorized users can access sensitive information
 
-## Mitigation technique:
+## Mitigation technique
 - Prepared statement
 - Input validation and sanitization
 - Restricting database permission
